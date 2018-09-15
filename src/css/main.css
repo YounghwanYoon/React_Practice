@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial;
+    margin:0 auto; /* Center website*/
+    padding: 20px;
+
+}
+
+div{
+    border-style:outset;
+    border-color: lightblue;
+    text-align:center;
+}
+
+div.board{
+    background-color: lightblue;
+}
+
+.commentText{
+    border-style:none;
+    text-align:left;
+    padding: 20px;
+
+}
+button{
+    color:white;
+    
+}
+.button-primary{
+    background-color:blue;
+}
+button.button-danger{
+    background-color:red;
+}
+button.button-save{
+    background-color:green;
+}
+button.button-info{
+    background-color:purple;
+}
+
